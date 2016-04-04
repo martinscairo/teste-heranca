@@ -29,7 +29,7 @@ public:
     
     inline const  std :: string Nome() const {return nome;}
     
-//protected:       //público p classes derivadas
+protected:       //público p classes derivadas
     std::string   nome;
     int           idade;
 };

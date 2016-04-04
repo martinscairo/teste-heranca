@@ -4,7 +4,7 @@
 #define ALUNO_H
 #include <Pessoa.h>
 
-class Aluno : public Pessoa {
+class Aluno : public Pessoa : protected Pessoa {
     
     friend std::ostream& operator << (std::ostream&, const Aluno&);
     
